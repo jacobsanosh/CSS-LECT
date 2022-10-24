@@ -1,0 +1,12 @@
+.container {
+    height: 200px;
+    width: 300px;
+    background-color: cyan;
+    padding: 10px;
+    border: 5px dashed red;
+    border-radius: 15px;
+    margin: auto;
+    margin: 1rem;
+    margin: 10rem auto;
+    float: right;
+}

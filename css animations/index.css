@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 200px;
+    width: 80%;
+    background-color: cyan;
+    box-shadow: 15px 15px 15px cyan;
+    animation-name: demo;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* adding transition  */
+    transition: all 4s;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes demo {
+    from {
+        color: beige;
+    }
+    to {
+        color: cadetblue;
+        text-shadow: 5px 5px 5px red;
+        font-size: 2rem;
+    }
+    /* 0% {
+        color: red;
+    }
+    25% {
+        color: cyan;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: beige;
+    }
+    100% {
+        color: cadetblue;
+    } */
+}
+
+.container:hover {
+    width: 50%;
+    transform: rotate(45deg);
+    /* transform: skew(45deg); */
+}

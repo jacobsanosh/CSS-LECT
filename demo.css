@@ -1,0 +1,13 @@
+body {
+    background-color: rebeccapurple;
+    background-image: url('./background.jpg');
+}
+
+#head {
+    color: red;
+}
+
+.para {
+    color: burlywood;
+    color: rgb(132, 252, 3);
+}

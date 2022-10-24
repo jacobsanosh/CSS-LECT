@@ -1,0 +1,29 @@
+body {
+    background-color: cyan;
+    font-size: 2rem;
+}
+
+h1 {
+    color: bisque
+}
+
+#heading {
+    color: blueviolet
+}
+
+.main {
+    color: coral;
+    text-align: center;
+    text-shadow: 5px 5px 5px red;
+}
+
+h3 {
+    /* height: 1000px; */
+    background-color: beige;
+}
+
+.container {
+    height: 500px;
+    background-image: url('./background.jpg');
+    border: 5px solid red;
+}

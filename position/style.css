@@ -1,0 +1,31 @@
+body {
+    height: 1500px;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    position: static;
+    position: fixed;
+    top: 1rem;
+    left: 5rem;
+}
+
+.parent {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: bisque;
+    top: 15rem;
+    left: 10rem;
+}
+
+.child {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    top: 1rem;
+    right: 0px;
+}
